@@ -1,9 +1,45 @@
-@import url('https://fonts.googleapis.com/css?family=Bitter');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Satisfy');
+
+.logo {
+  width: 80px;
+}
+
+header h1 {
+  color: #c9c983;
+  font-family: 'Satisfy', cursive;
+}
+
+li a, .jumbotron button {
+  border: 1px solid #5c433f;
+  color: #5c433f;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+.nav-pills>li.active>a {
+  color: #5c433f;
+  background-color: #eeddcd;
+}
+
+li a, .jumbotron button {
+  border: 1px solid #5c433f;
+  color: #5c433f;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
 
 .jumbotron {
-  background-color: blue
-  padding: 50px
+  background-image: url('../img/sup_dog.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 600px;
 }
-h1 {
-  font-family: 'Bitter', serif;
+
+.jumbotron h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
 }
+
+/* .featured {
+  margin-bottom: 60px;
+} */
