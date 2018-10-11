@@ -21,13 +21,6 @@ li a, .jumbotron button {
   background-color: #eeddcd;
 }
 
-li a, .jumbotron button {
-  border: 1px solid #5c433f;
-  color: #5c433f;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-}
-
 .jumbotron {
   background-image: url('../img/sup_dog.jpg');
   background-size: cover;
@@ -38,6 +31,22 @@ li a, .jumbotron button {
 .jumbotron h2 {
   font-family: 'Open Sans', sans-serif;
   font-weight: normal;
+}
+
+.product {
+  background-color: #eeddcd;
+  margin-right: 10px;
+  height: 350px;
+  border-radius: 10px;
+}
+
+.img-responsive {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.button {
+  color: #5c433f;
 }
 
 /* .featured {
